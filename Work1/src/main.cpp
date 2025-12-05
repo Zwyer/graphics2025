@@ -1,3 +1,5 @@
+//张玮烨-22551076
+
 #define _USE_MATH_DEFINES
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -154,7 +156,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* win = glfwCreateWindow(1280, 720, "彩色三角形", NULL, NULL);
+    GLFWwindow* win = glfwCreateWindow(1280, 720, "张玮烨-22551076-彩色三角形", NULL, NULL);
 
 
     glfwMakeContextCurrent(win);

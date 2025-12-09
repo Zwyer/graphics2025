@@ -5,10 +5,10 @@
  {base}/22551012张宏远\Homework1\opengl\lib
 配置到设置文件中
 
-![image-20251209213800708](image/set.png)
+![image1]([image/set.png](https://github.com/Metastarx/graphics2025/blob/main/22551012%E5%BC%A0%E5%AE%8F%E8%BF%9C/Homework1/Image/set.png))
 
 # 代码运行：
 
 运行main.cpp即可
 
-![image-20251209213800708](image/res.png)
+![image2]([image/res.png](https://github.com/Metastarx/graphics2025/blob/main/22551012%E5%BC%A0%E5%AE%8F%E8%BF%9C/Homework1/Image/res.png))

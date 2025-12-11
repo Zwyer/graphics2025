@@ -9,8 +9,20 @@
 |mingw32版本|gcc 6.3.0,make3.82.90|
 |IDE|Visual Studio code|
 
-注：OpenGL相关文件(glad与glfw)已经在Work1文件夹下，无需额外下载。  
-只需要安装cmake和mingw32即可编译运行。
+**1.opengl环境搭建：**
+1.1 前往https://www.glfw.org/download.html 下载glfw库，选择“Windows 下载 32 位二进制版本”，解压；  
+1.2 前往https://glad.dav1d.de/ 下载glad，gl 选 3.3 版本，profile 选 core，点击 generate 生成，下载 zip并解压  
+1.3 在解压以后的glad目录执行如下命令：
+```
+gcc ./src/glad.C -c -I ./include/
+ar -rc libglad.a glad.o
+```
+1.4 在项目根目录下新建lib文件夹，并在其中粘贴如下文件：来自于 glfw文件夹下，lib-mingw-w64中的libglfw3dll.a和libglfw3.a；以及glad文件夹下的libglad.a文件。
+
+1.5 在项目根目录新建output文件夹，将glfw文件夹下，lib-mingw-w64中的glfw3.dll文件粘贴到output文件夹下。
+
+
+2.安装cmake和mingw32，此后即可编译运行。
 
 # 2.编译步骤
 1.进入Work1文件夹  
